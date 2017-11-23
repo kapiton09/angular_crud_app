@@ -6,10 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
-  myProp: string = 'Go ahead, click the button';
-
-  myMethod() {
-    this.myProp = 'That button above me was clicked!';
-  }
+  title = 'app';
 }
